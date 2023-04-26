@@ -5,7 +5,7 @@
 
 /* header */
 .header{
-    background-image: url(../images/bg-travel.png);
+    background-image: url(../images/bg-travel-cropped.png);
     background-repeat: no-repeat;
     background-size: cover;
     height: 1450px;
@@ -86,7 +86,7 @@ nav li.listt{
     font-weight: bold;
     font-size: 75px;
     color: #FFFFFF;
-    padding-top: 270px;
+    padding-top: 300px;
     padding-bottom: 50px;
 }
 .banner-des{
@@ -100,7 +100,7 @@ nav li.listt{
 .discover-more{
     display: flex;
     justify-content: center;
-    padding-bottom: 530px;
+    padding-bottom: 580px;
 }
 
 .discover-more-btn{
@@ -131,7 +131,7 @@ nav li.listt{
 
 /* our service section */
 .service{
-    margin-top: 50px;
+    margin-top: 150px;
     border-radius: 10px;
     padding: 0px 150px;
 }
@@ -248,4 +248,197 @@ padding-bottom: 120px;
     font-weight: 600;
     font-size: 20px;
   
+}
+
+.cntry{
+   padding: 100px 50px;
+}
+
+/* Our Best package */
+.package{
+       background: #ECF1F0;
+       padding-top: 65px;
+       
+}
+
+div ul{
+    display: flex;
+    gap: 75px;
+    justify-content: center;
+}
+div li{
+    list-style: none;
+}
+
+.our-package{
+    padding-top: 55px;
+    padding-bottom: 120px;
+    
+   
+}
+
+.btn:hover{
+    background-color: #00A651;
+}
+.btn{
+    width: 180px;
+    height: 60px;
+    background: #666666;
+    border-radius: 10px;
+    border: 0;
+    font-weight: 700;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+.country-package{
+    display: flex;
+    gap: 75px;
+    justify-content: center;
+    padding-bottom: 120px;
+}
+
+.days-package img{
+    background: white;
+    box-shadow: 0px 6px 50px rgba(0,0,0, 0.09);
+    border-radius: 15px;
+    width: 300px;
+    height: 300px; 
+}
+
+/* button */
+.another-discover-more{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 120px;
+}
+
+/* next trip */
+.next-trip{
+    padding-top: 65px;
+}
+.trip-des{
+    text-align: center;
+    font-size: 24px;
+    padding-bottom: 100px;
+}
+
+.trip-package{
+    display: flex;
+    gap: 300px;
+    justify-content: center;
+    padding-bottom: 70px;
+}
+
+.trip{
+    display: flex;
+    flex-direction: column;
+    gap: 65px;
+    justify-content: center;
+}
+
+.flights img{
+    
+    width: 200px;
+    height: 200px;
+}
+
+.trip-choose-des{
+    display: flex;
+    
+}
+
+.choose-destination{
+    font-size: 20px;
+    font-weight: 700;
+    padding-left: 30px;
+}
+.choose-des{
+    padding-top: 10px;
+    padding-left: 30px;
+}
+
+/* about us */
+.about{
+    background-image: url(../images/pop-img/about.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 75px;
+    padding-bottom: 65px;
+    
+    
+}
+.about-img{
+    padding-top: 75px;
+    background-image: url(../images/pop-img/about-us.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+    margin-top: 200px;
+    width: 1228px;
+    height: 560px;
+    
+}
+.about-title{
+    padding-top: 300px;
+    font-weight: 400;
+    font-size: 20px;
+    width: 541px;
+    height: 94px;
+    color: #000000;
+    margin: auto;
+}
+.btn-about{
+    font-weight: 700;
+    font-size: 24px;
+    margin-left: 650px;
+    background-color: #00A651;
+    width: 160px;
+    height: 50px;
+    color: #FFFFFF;
+    border: 0;
+    border-radius: 10px;
+}
+
+/* footer */
+footer{
+    background: #ffffff;
+    height: 400px;
+}
+
+.footer-items{
+    display: flex;
+    gap: 130px;
+    padding: 100px 0px;
+    justify-content: center;
+}
+
+.future-title{
+    font-weight: 700;
+    font-size: 30px;
+
+}
+
+input{
+    width: 200px;
+    height: 50px;
+    font-weight: 400;
+    font-size: 18px;
+    padding: 5px 20px;
+    background: #ffffff;
+    border-color: #150909;
+    
+}
+.access-btn{
+    padding-top: 15px;
+}
+.button-subs{
+    width: 170.11px;
+    height: 50px;
+    background-color: #00A651;
+    font-weight: 600;
+    font-size: 20px;
+    color: #fdfbfa;
+    border: 0;
+    border-radius: 15px;
 }
