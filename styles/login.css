@@ -2,3 +2,85 @@
     margin: 0;
     font-family: 'Open Sans', sans-serif;
 }
+.member{
+    display: flex;
+    justify-content: right;
+    padding-top: 50px;
+    padding-right: 40px;
+}
+.not-member{
+    font-size: 22px;
+    font-weight: normal;
+}
+.sign-up{
+    font-size: 22px;
+    font-weight: normal;
+    background-color: transparent;
+    color: #00A651;
+    border: 0;
+}
+
+.display{
+    display: flex;
+    gap: 400px;
+    /* justify-content: center; */
+}
+
+/* picture */
+
+.design img{
+    width: 700px;
+}
+.design{
+    padding-left: 90px;
+}
+
+/* input form */
+
+.input-form{
+    padding-top: 240px;
+}
+
+h3{
+    font-size: 40px;
+    padding-bottom: 90px;
+}
+span{
+    color: #00A651;
+}
+
+/* label */
+label{
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.email{
+    padding-top: 15px;
+    padding-bottom: 35px;
+}
+.password{
+    padding-top: 15px;
+    padding-bottom: 25px;
+}
+
+input{
+    width: 550px;
+    height: 50px;
+    font-weight: 400;
+    font-size: 18px;
+    padding: 5px 20px;
+    background: #ededf6;
+    border: 0;
+    border-radius: 15px;
+}
+.login-button{
+    width: 250px;
+    height: 55px;
+    background-color: #00A651;
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+    border: 0;
+    border-radius: 15px;
+}
