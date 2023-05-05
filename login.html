@@ -12,7 +12,7 @@
            <nav>
             <div class="member">
                 <h4 class="not-member">Not a member?</h4>
-                <button class="sign-up">Sign up now</button>
+                <button class="sign-up" onclick="window.location.href='signup.html';">Sign up now</button>
             </div>
             </nav>
 
@@ -29,13 +29,13 @@
 
                     <label for="email">Email Address </label>
                     <div class="email">
-                        <input type="email" placeholder="Enter Email">
+                        <input type="email" placeholder="Enter Email" id="email">
                     </div>
 
                     <label for="password">Password</label>
 
                     <div class="password">
-                        <input type="password" placeholder="Password">
+                        <input type="password" placeholder="Password" id="password">
                     </div>
 
                     <div class="button">
@@ -46,5 +46,8 @@
 
             </div>
     </header>
+
+    <!-- js linker -->
+    <script src="js/login.js" defer></script>
 </body>
 </html>

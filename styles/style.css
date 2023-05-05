@@ -8,7 +8,7 @@
     background-image: url(../images/bg-travel-cropped.png);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 1450px;
+    height: 1350px;
 }
 
 /* nav */
@@ -41,6 +41,14 @@ nav li.listt{
     list-style: none;
     margin-left: 50px;
     
+}
+
+/*=========================
+    list item decoration 
+ ==========================*/
+.listt a{
+    text-decoration: none;
+    color: white;
 }
 
 .services{
@@ -84,9 +92,9 @@ nav li.listt{
 .banner-title{
     text-align: center;
     font-weight: bold;
-    font-size: 75px;
+    font-size: 60px;
     color: #FFFFFF;
-    padding-top: 300px;
+    padding-top: 270px;
     padding-bottom: 50px;
 }
 .banner-des{
@@ -100,13 +108,13 @@ nav li.listt{
 .discover-more{
     display: flex;
     justify-content: center;
-    padding-bottom: 580px;
+    padding-bottom: 420px;
 }
 
 .discover-more-btn{
   
-    height: 80px;
-    width: 250px;
+    height: 60px;
+    width: 240px;
     background: #00A651;
     border-radius: 10px;
     border: 0;
@@ -122,7 +130,7 @@ nav li.listt{
 .section-title{
     font-style: normal;
     font-weight: 900;
-    font-size: 40px;
+    font-size: 30px;
     text-align: center;
     color: #000000;
    
@@ -131,7 +139,7 @@ nav li.listt{
 
 /* our service section */
 .service{
-    margin-top: 150px;
+    margin-top: 20px;
     border-radius: 10px;
     padding: 0px 150px;
 }
@@ -273,8 +281,7 @@ div li{
 .our-package{
     padding-top: 55px;
     padding-bottom: 120px;
-    
-   
+ 
 }
 
 .btn:hover{
@@ -362,9 +369,9 @@ div li{
 .about{
     background-image: url(../images/pop-img/about.png);
     background-repeat: no-repeat;
-    background-size: cover;
-    padding-top: 75px;
-    padding-bottom: 65px;
+    background-size: contain;
+    padding-top: 40px;
+    padding-bottom: 40px;
     
     
 }
@@ -372,9 +379,9 @@ div li{
     padding-top: 75px;
     background-image: url(../images/pop-img/about-us.png);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     margin: auto;
-    margin-top: 200px;
+    margin-top: 30px;
     width: 1228px;
     height: 560px;
     

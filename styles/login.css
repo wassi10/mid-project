@@ -9,11 +9,11 @@
     padding-right: 40px;
 }
 .not-member{
-    font-size: 22px;
+    font-size: 15px;
     font-weight: normal;
 }
 .sign-up{
-    font-size: 22px;
+    font-size: 15px;
     font-weight: normal;
     background-color: transparent;
     color: #00A651;
@@ -22,14 +22,14 @@
 
 .display{
     display: flex;
-    gap: 400px;
+    gap: 200px;
     /* justify-content: center; */
 }
 
 /* picture */
 
 .design img{
-    width: 700px;
+    width: 490px;
 }
 .design{
     padding-left: 90px;
@@ -38,11 +38,11 @@
 /* input form */
 
 .input-form{
-    padding-top: 240px;
+    padding-top: 100px;
 }
 
 h3{
-    font-size: 40px;
+    font-size: 35px;
     padding-bottom: 90px;
 }
 span{
@@ -51,7 +51,7 @@ span{
 
 /* label */
 label{
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 700;
 }
 
@@ -65,8 +65,8 @@ label{
 }
 
 input{
-    width: 550px;
-    height: 50px;
+    width: 400px;
+    height: 30px;
     font-weight: 400;
     font-size: 18px;
     padding: 5px 20px;
@@ -74,9 +74,12 @@ input{
     border: 0;
     border-radius: 15px;
 }
+.login-button:hover{
+    background-color: black;
+}
 .login-button{
-    width: 250px;
-    height: 55px;
+    width: 230px;
+    height: 45px;
     background-color: #00A651;
     font-weight: 600;
     font-size: 20px;

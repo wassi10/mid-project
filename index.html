@@ -1,208 +1,228 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mid Project</title>
-    
-    <link rel="stylesheet" href="styles/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/3f65800a99.js" crossorigin="anonymous"></script>
-</head>
-<body>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mid Project</title>
 
-    <header class="header">
-    
-           <nav>
-            <div class="travel-go"><h4 class="nav-title">Travel <br>Goo</h4></div>
-            
+        <link rel="stylesheet" href="styles/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&display=swap"
+            rel="stylesheet">
+        <script src="https://kit.fontawesome.com/3f65800a99.js"
+            crossorigin="anonymous"></script>
+    </head>
+    <body>
+
+        <header class="header">
+
+            <nav>
+                <div class="travel-go"><h4 class="nav-title">Travel <br>Goo</h4></div>
                 <div class="services">
-                    <ul><li class="listt">Home</li>
-                        <li class="listt">About us</li>
-                        <li class="listt">Package</li>
-                        <li class="listt">Our Service</li></ul>
+                    <ul><li class="listt"><a href="#">Home</a></li>
+                        <li class="listt"><a href="#about-section">About us</a></li>
+                        <li class="listt"><a href="#package-section">Package</a></li>
+                        <li class="listt"><a href="#services-section">Our Service</a></li>
+                    </ul>
                 </div>
                 <div class="login-btn">
-                   
-                    <li><button class="Login-btn">Sign In</button></li>
-                    <li><button class="signup-btn">Sign Up</button></li>
+
+                    <li><button class="Login-btn" onclick="window.location.href='login.html';">Sign In</button></li>
+                    <li><button class="signup-btn" onclick="window.location.href='signup.html';">Sign Up</button></li>
                 </div>
-            
-           </nav>
-        
-           <div class="banner">
-            
+
+            </nav>
+
+            <div class="banner">
+
                 <h1 class="banner-title">Your Imagination Is <br>Your Only Limit</h1>
-                <p class="banner-des">We always try to make our customer Happy. We provide all kind of facilities. <br> Your Satisfaction is our main priority</p>
+                <p class="banner-des">We always try to make our customer Happy.
+                    We provide all kind of facilities. <br> Your Satisfaction is
+                    our main priority</p>
 
                 <div class="discover-more">
-                    <button  class="discover-more-btn">Discover More</button>
+                    <button class="discover-more-btn">Discover More</button>
                 </div>
 
-                <div class="section-title">Our Services</div>
-           </div>
-
-    </header>
-
-    <main>
-        <section class="service">
-            <div class="our-services">
-
-                <div class="booking">
-                    <img src="images/icon/ticket.png" alt="">
-                    <p class="booking-title">Ticket Booking</p>
-                    <p class="booking-des">We book all kind of national or international
-                        ticket for your destinaion.</p>
-                </div>
-
-                <div class="booking">
-                    <img src="images/icon/carbon_hotel.png" alt="">
-                    <p class="booking-title">Hotel Booking</p>
-                    <p class="booking-des">You can easily book your according to your
-                        budget hotel by our website.</p>
-                </div>
-                
-                <div class="booking">
-                    <img src="images/icon/cil_paper-plane.png" alt="">
-                    <p class="booking-title">Tour Plan</p>
-                    <p class="booking-des">We provide you the best plan within a short
-                        time explore more.</p>
-                </div>
+                <div class="section-title" id="services-section">Our Services</div>
             </div>
-        </section>
-        <!-- We always try to give you 
+
+        </header>
+
+        <main>
+            <section class="service">
+                <div class="our-services">
+
+                    <div class="booking">
+                        <img src="images/icon/ticket.png" alt="">
+                        <p class="booking-title">Ticket Booking</p>
+                        <p class="booking-des">We book all kind of national or
+                            international
+                            ticket for your destinaion.</p>
+                    </div>
+
+                    <div class="booking">
+                        <img src="images/icon/carbon_hotel.png" alt="">
+                        <p class="booking-title">Hotel Booking</p>
+                        <p class="booking-des">You can easily book your
+                            according to your
+                            budget hotel by our website.</p>
+                    </div>
+
+                    <div class="booking">
+                        <img src="images/icon/cil_paper-plane.png" alt="">
+                        <p class="booking-title">Tour Plan</p>
+                        <p class="booking-des">We provide you the best plan
+                            within a short
+                            time explore more.</p>
+                    </div>
+                </div>
+            </section>
+            <!-- We always try to give you 
             the best service section  -->
+            <section class="best-service" id="best-service-section">
+                <div class="section-title">We always try to give you <br>the
+                    best service</div>
+                <div><p class="section-des">We always try to make our customer
+                        Happy. We provide all kind of <br>facilities. Your
+                        Satisfaction is our main priority.</p></div>
 
-        <section class="best-service">
-                <div class="section-title">We always try to give you <br>the best service</div>
-                <div><p class="section-des">We always try to make our customer Happy. We provide all kind of <br>facilities. Your Satisfaction is our main priority.</p></div>
-
-            <div class="give-best-service">
-                <div class="money">
-                    <img src="images/icon/iconn/simple-line-icons_calender.png" alt="">
-                    <p class="money-title">15+</p>
-                    <p class="money-des">Years of <br>Experience</p>
-                </div>
-                <div class="money">
-                    <img src="images/icon/iconn/ant-design_bar-chart-outlined.png" alt="">
-                    <p class="money-title">15k+</p>
-                    <p class="money-des">Happy <br>Travellers</p>
-                </div>
-                <div class="money">
-                    <img src="images/icon/iconn/carbon_map.png" alt="">
-                    <p class="money-title">650+</p>
-                    <p class="money-des">Places Visited</p>
-                </div>
-                <div class="money">
-                    <img src="images/icon/iconn/gridicons_history.png" alt="">
-                    <p class="money-title">2k+</p>
-                    <p class="money-des">Travel History</p>
-                </div>
-            </div>
-        </section>
-
-        <!-- Our Population Destination -->
-
-        <section class="population">
-            <div class="section-title">Our Population Destination</div>
-
-            <div class="pop-destination">
-
-                <div class="map-img">
-                    <img src="images/worl-map-cropped.png" alt="">
-                </div>
-
-                <div class="country">
-                    <div class="country-name">
-                        
-                        <div><img src="images/pop-img/pop1.png" alt=""></div>
-                       <div> <p class="cntry">Thailand</p></div>
-                       <div><p class="cntry">20+ Spots <br>
-                        2D & 3N</p></div>
+                <div class="give-best-service">
+                    <div class="money">
+                        <img
+                            src="images/icon/iconn/simple-line-icons_calender.png"
+                            alt="">
+                        <p class="money-title">15+</p>
+                        <p class="money-des">Years of <br>Experience</p>
                     </div>
-                    <div class="country-name">
-                        <div><img src="images/pop-img/pop2.png" alt=""></div>
-                        <div><p class="cntry">Indonesia</p></div>
-                       <div><p class="cntry">25+ Spots <br>
-                        3D & 3N</p></div>
+                    <div class="money">
+                        <img
+                            src="images/icon/iconn/ant-design_bar-chart-outlined.png"
+                            alt="">
+                        <p class="money-title">15k+</p>
+                        <p class="money-des">Happy <br>Travellers</p>
                     </div>
-                    <div class="country-name">
-                        <div><img src="images/pop-img/pop3.png" alt=""></div>
-                        <div><p class="cntry">New Zeland</p></div>
-                        <div><p class="cntry">20+ Spots <br>
-                            3D & 2N</p></div>
-                    </div>  
+                    <div class="money">
+                        <img src="images/icon/iconn/carbon_map.png" alt="">
+                        <p class="money-title">650+</p>
+                        <p class="money-des">Places Visited</p>
+                    </div>
+                    <div class="money">
+                        <img src="images/icon/iconn/gridicons_history.png"
+                            alt="">
+                        <p class="money-title">2k+</p>
+                        <p class="money-des">Travel History</p>
+                    </div>
                 </div>
-            </div>
-        </section>
+            </section>
 
-        <!-- Best Packages For You -->
-        <section class="package">
-            <div class="section-title">Best Packages For You</div>
+            <!-- Our Population Destination -->
 
-            <div class="our-package">
-                <ul>
-                <li><button class="btn">Hot Deals</button></li>
-                <li><button class="btn">Backpack</button></li>
-                <li><button class="btn">South Asia</button></li>
-                <li><button class="btn">Honeymoon</button></li>
-                <li><button class="btn">Europe</button></li>
-                <li><button class="btn">More</button></li>
-                </ul>
-            </div>
+            <section class="population">
+                <div class="section-title">Our Population Destination</div>
 
-            <div class="country-package">
-                <div class="days-package">
-                    <img src="images/indonesia.png" alt="">
-                
+                <div class="pop-destination">
+
+                    <div class="map-img">
+                        <img src="images/worl-map-cropped.png" alt="">
+                    </div>
+
+                    <div class="country">
+                        <div class="country-name">
+
+                            <div><img src="images/pop-img/pop1.png" alt=""></div>
+                            <div> <p class="cntry">Thailand</p></div>
+                            <div><p class="cntry">20+ Spots <br>
+                                    2D & 3N</p></div>
+                        </div>
+                        <div class="country-name">
+                            <div><img src="images/pop-img/pop2.png" alt=""></div>
+                            <div><p class="cntry">Indonesia</p></div>
+                            <div><p class="cntry">25+ Spots <br>
+                                    3D & 3N</p></div>
+                        </div>
+                        <div class="country-name">
+                            <div><img src="images/pop-img/pop3.png" alt=""></div>
+                            <div><p class="cntry">New Zeland</p></div>
+                            <div><p class="cntry">20+ Spots <br>
+                                    3D & 2N</p></div>
+                        </div>
+                    </div>
                 </div>
-                <div class="days-package">
-                    <img src="images/japan.png" alt="">
+            </section>
+
+            <!-- Best Packages For You -->
+            <section class="package" id="package-section">
+                <div class="section-title">Best Packages For You</div>
+
+                <div class="our-package">
+                    <ul>
+                        <li><button class="btn">Hot Deals</button></li>
+                        <li><button class="btn">Backpack</button></li>
+                        <li><button class="btn">South Asia</button></li>
+                        <li><button class="btn">Honeymoon</button></li>
+                        <li><button class="btn">Europe</button></li>
+                        <li><button class="btn">More</button></li>
+                    </ul>
                 </div>
-                <div class="days-package">
-                    <img src="images/mountains.png" alt="">
+
+                <div class="country-package">
+                    <div class="days-package">
+                        <img src="images/indonesia.png" alt="">
+
+                    </div>
+                    <div class="days-package">
+                        <img src="images/japan.png" alt="">
+                    </div>
+                    <div class="days-package">
+                        <img src="images/mountains.png" alt="">
+                    </div>
                 </div>
-            </div>
-            
-            <div class="another-discover-more">
-                <button  class="discover-more-btn">Discover More</button>
-            </div>
 
-        </section>
+                <div class="another-discover-more">
+                    <button class="discover-more-btn">Discover More</button>
+                </div>
 
-        <!-- next trip -->
+            </section>
 
-        <section class="next-trip">
-            <div class="section-title">Book Your Next Trip in 3 Easy Steps</div>
+            <!-- next trip -->
+
+            <section class="next-trip">
+                <div class="section-title">Book Your Next Trip in 3 Easy Steps</div>
                 <div><p class="trip-des">Easy and Fast</p></div>
 
                 <div class="trip-package">
-                    
+
                     <div class="trip">
                         <div class="trip-choose-des">
                             <img src="images/icon/iconn/trip1.png" alt="">
-                            <div> <p class="choose-destination">Choose Destination <br></p><p class="choose-des">Lorem ipsum dolor sit amet, consectetur 
-                                adipiscing elit. Urna, tortor tempus.</p></div>
-                            </div>
-        
+                            <div> <p class="choose-destination">Choose
+                                    Destination <br></p><p class="choose-des">Lorem
+                                    ipsum dolor sit amet, consectetur
+                                    adipiscing elit. Urna, tortor tempus.</p></div>
+                        </div>
+
                         <div class="trip-choose-des">
                             <img src="images/icon/iconn/trip2.png" alt="">
-                            <div> <p class="choose-destination">Make Payment<br></p><p class="choose-des">Lorem ipsum dolor sit amet, consectetur 
-                                adipiscing elit. Urna, tortor tempus.</p></div>
+                            <div> <p class="choose-destination">Make Payment<br></p><p
+                                    class="choose-des">Lorem ipsum dolor sit
+                                    amet, consectetur
+                                    adipiscing elit. Urna, tortor tempus.</p></div>
                         </div>
-                        
+
                         <div class="trip-choose-des">
                             <img src="images/icon/iconn/trip3.png" alt="">
-                            <div> <p class="choose-destination">Reach Airport on Selected Date <br></p><p class="choose-des">Lorem ipsum dolor sit amet, consectetur 
-                                adipiscing elit. Urna, tortor tempus.</p></div>
-                            
+                            <div> <p class="choose-destination">Reach Airport on
+                                    Selected Date <br></p><p class="choose-des">Lorem
+                                    ipsum dolor sit amet, consectetur
+                                    adipiscing elit. Urna, tortor tempus.</p></div>
                         </div>
                     </div>
 
-                    <div >
+                    <div>
                         <div class="flights">
                             <img src="images/flights.png" alt="">
                         </div>
@@ -211,56 +231,62 @@
                         </div>
                     </div>
                 </div>
-        </section>
+            </section>
 
-        <!-- about us -->
-        <section class="about">
-            <div class="section-title">What People Say About Us</div>
-            <div class="about-img">
-                <div class="content">
-                    <p class="about-title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab molestiae id dolores neque ullam dignissimos non impedit repudiandae enim vel.</p>
-                    <button class="btn-about">Read more</button>
+            <!-- about us -->
+            <section class="about" id="about-section">
+                <div class="section-title">What People Say About Us</div>
+                <div class="about-img">
+                    <div class="content">
+                        <p class="about-title">Lorem ipsum dolor sit amet
+                            consectetur adipisicing elit. Ab molestiae id
+                            dolores neque ullam dignissimos non impedit
+                            repudiandae enim vel.</p>
+                        <button class="btn-about">Read more</button>
+                    </div>
                 </div>
+            </section>
+        </main>
+
+        <footer>
+            <div class="footer-items">
+                <div class="elements">
+                    <h3 class="future-title">Travel Goo<br> <br>
+                    </h3>
+                    <p class="future-description">Book your trip in minute, <br>
+                        get full
+                        Control for much longer.</p> <br>
+
+                    <img src="images/icon/twitter.png" alt="">
+                    <img src="images/icon/instagram.png" alt="">
+                    <img src="images/icon/youtube.png" alt="">
+                </div>
+
+                <div class="elements">
+                    <h3 class="future-title">Company<br> <br></h3>
+                    <p class="future-description">About <br> <br>Careers <br><br>Mobile</p>
+                    <br>
+                </div>
+
+                <div class="elements">
+                    <h3 class="future-title">Contact<br> <br></h3>
+                    <p class="future-description">Help/FAQ <br> <br>Press <br><br>Affilates</p>
+                    <br>
+                </div>
+
+                <div class="elements">
+                    <h3 class="future-title">Subscribe <br> <br></h3>
+                    <input type="email" placeholder="Enter your email">
+
+                    <div class="access-btn">
+                        <button class="button-subs">Subscribe</button>
+                    </div>
+                </div>
+
             </div>
-        </section>
-    </main>
 
-    <footer >
-        <div class="footer-items">
-            <div class="elements">
-                <h3 class="future-title">Travel Goo<br> <br>
-                </h3>
-                <p class="future-description">Book your trip in minute, <br> get full
-                Control for much longer.</p> <br>
 
-                <img src="images/icon/twitter.png" alt="">
-                <img src="images/icon/instagram.png" alt="">
-                <img src="images/icon/youtube.png" alt="">
-            </div>
+        </footer>
 
-            <div class="elements">
-                <h3 class="future-title">Company<br> <br></h3>
-                <p class="future-description">About <br> <br>Careers <br><br>Mobile</p> <br>
-            </div>
-
-            <div class="elements">
-                <h3 class="future-title">Contact<br> <br></h3>
-                <p class="future-description">Help/FAQ <br> <br>Press <br><br>Affilates</p> <br>
-            </div>
-
-            <div class="elements">
-                <h3 class="future-title">Subscribe <br> <br></h3>
-                <input type="email" placeholder="Enter your email">
-                
-                <div class="access-btn">
-                <button class="button-subs">Subscribe</button>
-            </div>
-           </div>
-
-        </div>
-        
-      
-    </footer>
-    
-</body>
+    </body>
 </html>
